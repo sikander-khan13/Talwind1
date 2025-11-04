@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Top Info Bar-->
+    <div class="border-b text-sm text-gray-600 hidden md:block">
+      <div
+        class="container mx-auto flex justify-between items-center py-2 px-4"
+      >
+        <!--Left Side-->
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-blue-600">About Us</a>
+          <a href="#" class="hover:text-blue-600">Order Tracking</a>
+          <a href="#" class="hover:text-blue-600">Contact Us</a>
+          <a href="#" class="hover:text-blue-600">FAQs</a>
+        </div>
+        <!--Right Side-->
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center space-x-1 cursor-pointer">
+            <span>English</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-4 w-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+          <div class="flex items-center space-x-1 cursor-pointer">
+            <span>USD</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-4 w-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Logo+Search-->
+    <div class="border-b">
+      <div
+        class="container mx-auto flex flex-wrap justify-between items-center py-4 px-4"
+      >
+        <!--Logo-->
+        <div class="flex items-center space-x-2">
+          <img
+            src="logo1.png"
+            alt=""
+            class="h-10 w-auto object-contain md:h-12"
+          />
+        </div>
+
+        <!--Middle Search-->
+        <div class="w-full order-3 md:order-2 md:w-1/2 mt-3 md:mt-0">
+          <div class="flex border rounded-md w-full overflow-hidden">
+            <div class="flex items-center px-3 bg-white border-r">
+              <span class="text-sm font-medium">All Categories</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-4 w-4 ml-1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </div>
+            <input
+              type="text"
+              placeholder="I'm Shopping for....."
+              class="w-full px-4 py-2 outline-none text-gray-700"
+            />
+            <button
+              class="bg-blue-600 px-4 flex items-center justify-center text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!--Right Contact Icons-->
+        <div class="flex items-center space-x-3 order-2 md:order-3">
+          <div class="hidden lg:flex items-center space-x-2">
+            <div class="p-2 rounded-full bg-gray-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <p class="text-sm font-medium">Need Help?</p>
+              <p class="text-sm font-medium">+001 123 456 789</p>
+            </div>
+          </div>
+          <!--Icons-->
+          <div class="flex items-center space-x-3">
+            <!--User-->
+            <div class="p-2 rounded-full bg-gray-100 cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </div>
+            <!--Heart-->
+            <div class="relative p-2 rounded-full bg-gray-100 cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+              <span
+                class="absolute -top-1 -right-1 bg-blue-600 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full"
+                >3</span
+              >
+            </div>
+
+            <!--Cart-->
+            <div class="relative p-2 rounded-full bg-gray-100 cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-5 w-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+              <span
+                class="absolute -top-1 -right-1 bg-blue-600 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full"
+                >1</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Bottom Menu-->
+    <div class="py-3 hidden md:block">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <!--Left Side-->
+        <button
+          class="flex items-center bg-blue-600 text-white px-5 py-2 rounded-md shadow-md"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-5 w-5 mr-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          All Categories
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-4 w-4 ml-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </button>
+
+        <!--Right Menu-->
+        <nav class="flex space-x-8 text-gray-700 font-medium">
+          <a href="#" class="hover:text-blue-600">Mens</a>
+          <a href="#" class="hover:text-blue-600">Womans</a>
+          <a href="#" class="hover:text-blue-600">Kids</a>
+          <a href="#" class="hover:text-blue-600">Electronic Items</a>
+          <a href="#" class="hover:text-blue-600">Kitchen Accessories</a>
+          <a href="#" class="hover:text-blue-600">News & Blogs</a>
+          <a href="#" class="hover:text-blue-600">Contact Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <!--Mobile Menu-->
+    <div class="md:hidden border-b">
+      <div class="container mx-auto px-4 py-3">
+        <!--Parent-->
+        <div class="relative">
+          <!--Hamburger toggle-->
+          <label
+            for="menu-toggle"
+            class="cursor-pointer flex items-center justify-between"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="sh-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </label>
+          <!--Hidden Checkbox-->
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+          <!--Dropdown menu-->
+          <div
+            class="hidden peer-checked:block bg-gray-50 border-t mt-3 rounded shadow-md"
+          >
+            <nav
+              class="flex flex-col space-y-3 py-3 px-6 text-gray-700 font-medium"
+            >
+              <a href="#" class="hover:text-blue-600">Mens</a>
+              <a href="#" class="hover:text-blue-600">Womans</a>
+              <a href="#" class="hover:text-blue-600">Kids</a>
+              <a href="#" class="hover:text-blue-600">Electronic Items</a>
+              <a href="#" class="hover:text-blue-600">Kitchen Accessories</a>
+              <a href="#" class="hover:text-blue-600">News & Blogs</a>
+              <a href="#" class="hover:text-blue-600">Contact Us</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Trending-->
+    <section
+      class="flex flex-col md:flex-row items-center justify-between min-h-screen"
+    >
+      <!--Left side image-->
+      <div class="md:w-1/2 w-full">
+        <img src="Banner.jpg" alt="" class="w-full h-[90vh] object-cover" />
+      </div>
+      <!--Right Side-->
+      <div class="md:w-1/2 w-full px-8 md:px-16 py-12">
+        <p class="text-blue-600 font-semibold text-lg mb-3">
+          Trending Products
+        </p>
+        <h1
+          class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight"
+        >
+          New Arrival From Mans Collections
+        </h1>
+        <p class="text-gray-600 mb-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna,
+          scelerisque vitae augue et, cursus placerat lorem. In nisi lacus,
+          eleifend tincidunt quam et, consequat semper.
+        </p>
+        <button
+          class="border border-gray-900 px-6 py-3 font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
+        >
+          Shop Now
+        </button>
+      </div>
+    </section>
+
+    <!--Top collection section-->
+    <section class="py-16">
+      <div class="container mx-auto px-4 text-center">
+        <!--Section Header-->
+        <p class="text-blue-600 font-semibold mb-2">Recent Products</p>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+          Top Collections
+        </h2>
+        <p class="text-gray-600 mb-10 max-w-2xl mx-auto">
+          There are many variations of passages of Lorem Ipsum available but the
+          majority have suffered alteration in some form.
+        </p>
+        <!--Product Grid-->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <!--Product-1-->
+          <div class="text-left">
+            <img
+              src="TC1.jpg"
+              alt=""
+              class="rounded-lg w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              Men Winter Jacket
+            </h3>
+            <p class="text-gray-500 text-sm">Item Descriptions</p>
+            <p class="text-blue-600 font-semibold mt-1">$35.00</p>
+          </div>
+
+          <div class="text-left">
+            <img
+              src="TC2.jpg"
+              alt=""
+              class="rounded-lg w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              Women Collection
+            </h3>
+            <p class="text-gray-500 text-sm">Item Descriptions</p>
+            <p class="text-blue-600 font-semibold mt-1">$35.00</p>
+          </div>
+
+          <div class="text-left">
+            <img
+              src="TC3.jpg"
+              alt=""
+              class="rounded-lg w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">Women Sunglass</h3>
+            <p class="text-gray-500 text-sm">Item Descriptions</p>
+            <p class="text-blue-600 font-semibold mt-1">$35.00</p>
+          </div>
+
+          <div class="text-left">
+            <img
+              src="TC4.jpg"
+              alt=""
+              class="rounded-lg w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              Men Winter Jacket
+            </h3>
+            <p class="text-gray-500 text-sm">Man in Black</p>
+            <p class="text-blue-600 font-semibold mt-1">$35.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Discounted Product-->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <!--Product Grid-->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!--Product-1-->
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition"
+          >
+            <img src="TC5.png" alt="" class="w-full h-64 object-cover" />
+            <div class="p-5">
+              <p class="text-sm text-gray-500 mb-1">Winter Clothings</p>
+              <h2 class="text-lg font-semibold text-gray-900 mb-1">
+                Women winter sweater
+              </h2>
+              <div class="flex justify-between items-center">
+                <div>
+                  <span class="text-gray-400 mr-2 line-through">£48.00 </span>
+                  <span class="text-gray-900 font-semibold">£24.00</span>
+                </div>
+                <span class="text-blue-600 text-sm font-medium"
+                  >-50% Flat Discount</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition"
+          >
+            <img src="TC6.png" alt="" class="w-full h-64 object-cover" />
+            <div class="p-5">
+              <p class="text-sm text-gray-500 mb-1">Ladies Jacket</p>
+              <h2 class="text-lg font-semibold text-gray-900 mb-1">
+                Ladies denim jacket
+              </h2>
+              <div class="flex justify-between items-center">
+                <div>
+                  <span class="text-gray-400 mr-2 line-through">£48.00 </span>
+                  <span class="text-gray-900 font-semibold">£24.00</span>
+                </div>
+                <span class="text-blue-600 text-sm font-medium"
+                  >-50% Flat Discount</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition"
+          >
+            <img src="TC7.png" alt="" class="w-full h-64 object-cover" />
+            <div class="p-5">
+              <p class="text-sm text-gray-500 mb-1">Winter Clothings</p>
+              <h2 class="text-lg font-semibold text-gray-900 mb-1">
+                Women winter sweater
+              </h2>
+              <div class="flex justify-between items-center">
+                <div>
+                  <span class="text-gray-400 mr-2 line-through">£48.00 </span>
+                  <span class="text-gray-900 font-semibold">£24.00</span>
+                </div>
+                <span class="text-blue-600 text-sm font-medium"
+                  >-50% Flat Discount</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition"
+          >
+            <img src="TC8.png" alt="" class="w-full h-64 object-cover" />
+            <div class="p-5">
+              <p class="text-sm text-gray-500 mb-1">Winter Clothings</p>
+              <h2 class="text-lg font-semibold text-gray-900 mb-1">
+                Women winter sweater
+              </h2>
+              <div class="flex justify-between items-center">
+                <div>
+                  <span class="text-gray-400 mr-2 line-through">£48.00 </span>
+                  <span class="text-gray-900 font-semibold">£24.00</span>
+                </div>
+                <span class="text-blue-600 text-sm font-medium"
+                  >-50% Flat Discount</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Categories-->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <!--Header-->
+        <div class="flex justify-between items-center mb-10 flex-wrap gap-4">
+          <div>
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-2">
+              Shop By Category
+            </h2>
+            <p class="text-gray-600 max-w-lg">
+              There are many variations of passages of Lorem Ipsum available but
+              the majority have suffered alteration in some form.
+            </p>
+          </div>
+          <button
+            class="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-600 hover:text-white transition"
+          >
+            Explore All
+          </button>
+        </div>
+
+        <!--Categories-->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-16">
+          <!--Category-1-->
+          <div
+            class="bg-white border rounded-lg overflow-hidden shadow-sm hover:shadow-lg tranisiton"
+          >
+            <img src="SC1.jpg" alt="" class="w-full h-56 object-cover" />
+            <div class="p-4">
+              <p class="text-sm text-gray-500">#House</p>
+              <h3 class="text-lg font-semibold text-gray-900">
+                Beautiful Furniture
+              </h3>
+            </div>
+          </div>
+
+          <div
+            class="bg-white border rounded-lg overflow-hidden shadow-sm hover:shadow-lg tranisiton"
+          >
+            <img src="SC2.jpg" alt="" class="w-full h-56 object-cover" />
+            <div class="p-4">
+              <p class="text-sm text-gray-500">#House</p>
+              <h3 class="text-lg font-semibold text-gray-900">
+                Beautiful Furniture
+              </h3>
+            </div>
+          </div>
+
+          <div
+            class="bg-white border rounded-lg overflow-hidden shadow-sm hover:shadow-lg tranisiton"
+          >
+            <img src="SC3.jpg" alt="" class="w-full h-56 object-cover" />
+            <div class="p-4">
+              <p class="text-sm text-gray-500">#House</p>
+              <h3 class="text-lg font-semibold text-gray-900">
+                Beautiful Furniture
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <!--Featured Products-->
+        <div class="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <!--Product-1-->
+          <div class="text-center">
+            <img
+              src="image-05.jpg"
+              alt=""
+              class="rounded-md w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              T-shirt for Men's
+            </h3>
+            <p class="text-gray-400 line-through">
+              $50.00 <span class="text-gray-900 font-semibold">$24.00</span>
+            </p>
+            <button
+              class="mt-3 border border-gray-900 text-gray-900 px-5 py-2 rounded-lg hover:bg-gray-900 hover:text-white transition"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div class="text-center">
+            <img
+              src="image-06.jpg"
+              alt=""
+              class="rounded-md w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              T-shirt for Men's
+            </h3>
+            <p class="text-gray-400 line-through">
+              $50.00 <span class="text-gray-900 font-semibold">$24.00</span>
+            </p>
+            <button
+              class="mt-3 border border-gray-900 text-gray-900 px-5 py-2 rounded-lg hover:bg-gray-900 hover:text-white transition"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div class="text-center">
+            <img
+              src="image-07.jpg"
+              alt=""
+              class="rounded-md w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              T-shirt for Men's
+            </h3>
+            <p class="text-gray-400 line-through">
+              $50.00 <span class="text-gray-900 font-semibold">$24.00</span>
+            </p>
+            <button
+              class="mt-3 border border-gray-900 text-gray-900 px-5 py-2 rounded-lg hover:bg-gray-900 hover:text-white transition"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div class="text-center">
+            <img
+              src="image-08.jpg"
+              alt=""
+              class="rounded-md w-full h-72 object-cover mb-4"
+            />
+            <h3 class="text-lg font-semibold text-gray-900">
+              T-shirt for Men's
+            </h3>
+            <p class="text-gray-400 line-through">
+              $50.00 <span class="text-gray-900 font-semibold">$24.00</span>
+            </p>
+            <button
+              class="mt-3 border border-gray-900 text-gray-900 px-5 py-2 rounded-lg hover:bg-gray-900 hover:text-white transition"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+      <!--Top section-->
+      <div
+        class="bg-gray-50 max-w-7xl mx-auto rounded-xl mt-10 p-10 md:p-14 flex flex-col md:flex-row justify-between gap-10"
+      >
+        <!--Left part-->
+        <div class="flex-1">
+          <div class="flex items-center space-x-2 mb-4">
+            <img src="logo2.png" alt="" class="w-20 h-20 object-contain" />
+          </div>
+          <p class="text-gray-600 mb-6 leading-relaxed max-w-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget
+            lorem.
+          </p>
+          <div class="flex space-x-4">
+            <a
+              href="#"
+              class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full hover:bg-blue-600 hover:text-white transition"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-4 w-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full hover:bg-blue-600 hover:text-white transition"
+            ></a>
+            <a
+              href="#"
+              class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full hover:bg-blue-600 hover:text-white transition"
+            ></a>
+            <a
+              href="#"
+              class="w-9 h-9 flex items-center justify-center border border-gray-300 rounded-full hover:bg-blue-600 hover:text-white transition"
+            ></a>
+          </div>
+        </div>
+
+        <!--Middle-->
+        <div class="flex-1 flex justify-between">
+          <div>
+            <h4 class="font-semibold text-gray-900 mb-4">Useful Links</h4>
+            <ul class="space-y-2 text-grau-600">
+              <li>
+                <a href="#" class="hover:text-blue-600">Legal & Privacy </a>
+              </li>
+              <li><a href="#" class="hover:text-blue-600">Contact </a></li>
+              <li><a href="#" class="hover:text-blue-600">Gift Card </a></li>
+              <li>
+                <a href="#" class="hover:text-blue-600">Customer Service </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="opacity-0 mb-4">Hidden</h4>
+            <ul class="space-y-2 text-gray-600">
+              <li><a href="#" class="hover:text-blue-600">Women </a></li>
+              <li><a href="#" class="hover:text-blue-600">Accessories </a></li>
+              <li><a href="#" class="hover:text-blue-600">Men </a></li>
+              <li><a href="#" class="hover:text-blue-600">Gift </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Right News letter-->
+        <div class="flex-1">
+          <h4 class="font-semibold text-gray-900 mb-4">Subscribe Newsletter</h4>
+          <p class="text-gray-600 mb-4">
+            Enter your email to receive our valuable newsletters.
+          </p>
+          <div class="flex border border-gray-300 rounded-lg overflow-hidden max-w-sm">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="flex-1 px-4 py-2 text-gray-700 outline-none"
+            />
+            <button
+              class="bg-blue-600 text-white  px-5 flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--Bottom Bar-->
+      <div class=" mt-6 py-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center tect-gray-500 text-sm space-y-3 md:space-y-0 px-6">
+        <div class="flext flex-wrap justify-center md:justify-start space-x-6">
+          <a href="#" class="hover:text-blue-600">Payment</a>
+          <a href="#" class="hover:text-blue-600">Shipping & Returns</a>
+          <a href="#" class="hover:text-blue-600">Git Cards</a>
+          <a href="#" class="hover:text-blue-600">Privacy Policy</a>
+          <a href="#" class="hover:text-blue-600">Stockists</a>
+        </div>
+
+        <div class="flex space-x-4 items-center">
+          <img src="Paypal.png" alt="" class="h-5">
+          <img src="Visa.png" alt="" class="h-5">
+          <img src="MasterCard.png" alt="" class="h-5">
+          <img src="Ameexpress.png" alt="" class="h-5">
+          <img src="Discover.png" alt="" class="h-5">
+        </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
