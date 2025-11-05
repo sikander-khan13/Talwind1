@@ -5,6 +5,11 @@
     "tailwindcss": "^4.1.16"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build":"vite build",
+    "preview":"vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
   }
 }
